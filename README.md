@@ -13,8 +13,12 @@ Prediction datasets for english premier league
 - Build prediction dataset.
     - `trainset, testset = get_epl_dataset(feature_names, prediction_names, window_size, batch_size, years)`
     - Dataset has input batches of shape (N, InD, L) and output batches of shape (N, OutD, L)
-- Show demo on colab
+- Add Examples
     - Use epl_dataset.py to benchmark some basic models 
     - search over feature space in another notebook
     - Add visuals over predictions 
+        - Figure out if there are bugs in predictions logic. 
+        - Compare scale of predictions and groundtruth
+    - Try bayesian linear regression / Fit player prediction with uncertainity ?
+    - Do Repo on Colab
 
